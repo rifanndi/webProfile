@@ -45,7 +45,7 @@ function Navbar() {
               to="headerbg"
               style={{ cursor: "pointer" }}
             >
-              Java Charcoal
+              Indo Royal Charcoal
             </Link>
           </h1>
           <ul className="bar">

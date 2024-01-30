@@ -21,7 +21,7 @@ const Header = () => {
         {/* Scroll to "about-scroll" section */}
         <Link
           onClick={openBar}
-          to="about-scroll"
+          to="services"
           spy={true}
           smooth={true}
           duration={1000}
@@ -43,8 +43,6 @@ const Header = () => {
           </button>
         </a>
       </div>
-
-      <div className="headerbg"></div>
     </header>
   );
 };
