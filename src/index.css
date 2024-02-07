@@ -163,7 +163,7 @@ code {
 
   margin-bottom: 0.4rem;
   width: 25px;
-  height: 2px;g
+  height: 2px;
   background-color: white;
 }
 /* Header */
@@ -297,7 +297,6 @@ footer ul li a {
   color: white;
   bottom: 20px;
   right: 15px;
-  //*height: 10.9%;*//
 }
 /* Services */
 .card-title {
