@@ -34,9 +34,12 @@ function Navbar() {
     <nav className="navbar">
       <div className="container">
         <div className="row">
-          <h1
+          <h3
             className="logo"
-            style={{ fontFamily: "YourChosenFont, sans-serif" }}
+            style={{
+              fontFamily: "YourChosenFont, sans-serif",
+              marginTop: "3px",
+            }}
           >
             <Link
               spy={true}
@@ -47,7 +50,7 @@ function Navbar() {
             >
               Indo Royal Charcoal
             </Link>
-          </h1>
+          </h3>
           <ul className="bar">
             <li>
               <Link

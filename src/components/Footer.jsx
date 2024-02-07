@@ -1,4 +1,5 @@
 import { Link, animateScroll as scroll } from "react-scroll";
+import { FaWhatsapp } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -8,7 +9,7 @@ function Footer() {
           <div className="side1">
             <div className="row">
               <div className="col-md-3">
-                <h1 className="logo">DarkLeas</h1>
+                <h1 className="logo">Indo Royal Charcol</h1>
                 <p className="footer-text">
                   Lorem ipsum Here are thirteen health benefits of apples Lorem
                 </p>
@@ -33,7 +34,7 @@ function Footer() {
                       smooth={true}
                       duration={1000}
                     >
-                      Services
+                      produk
                     </Link>
                   </li>
                   <li>
@@ -61,13 +62,13 @@ function Footer() {
                 <p className="footer-title">Contact</p>
                 <ul>
                   <li>
-                    <Link to="#">burhankcd@gmail.com</Link>
+                    <Link to="#">Rifa@IndoroyalCharoal.com</Link>
                   </li>
                   <li>
-                    <Link to="#"> Burhan #3265</Link>
+                    <Link to="#"></Link>
                   </li>
                   <li>
-                    <Link to="#">0212 444 44 44</Link>
+                    <Link to="#">085-84275-4076</Link>
                   </li>
                 </ul>
               </div>
@@ -78,16 +79,16 @@ function Footer() {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://github.com/darkleas"
+                      href="https://github.com/darkles"
                     >
-                      Github
+                      Instagram
                     </a>
                   </li>
                   <li>
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://twitter.com/burhankocadag0"
+                      href="https://twitter.com/burhankcadag0"
                     >
                       Twitter
                     </a>
@@ -96,7 +97,7 @@ function Footer() {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://www.linkedin.com/in/burhan-kocada%C4%9F-49a3331a5/"
+                      href="https://www.linkedin.com/in/burha\n-kocada%C4%9F-49a3331a5/"
                     >
                       Linkedin
                     </a>
@@ -107,9 +108,16 @@ function Footer() {
           </div>
         </div>
       </div>
-      <button onClick={() => scroll.scrollToTop(2500)} className="gotop">
-        <i className="fas fa-level-up-alt"></i>
-      </button>
+
+      <a
+        href="https://wa.me/message/DDFS53IPYRVRE1"
+        target="_blank" // Open link in a new tab
+        rel="noopener noreferrer" // Security best practice for target="_blank" links
+      >
+        <button to="" className="gotop">
+          <FaWhatsapp style={{ width: "50px", height: "100%" }} />
+        </button>
+      </a>
     </footer>
   );
 }

@@ -43,6 +43,7 @@ const Header = () => {
           </button>
         </a>
       </div>
+      <div className="headerbg"></div>
     </header>
   );
 };

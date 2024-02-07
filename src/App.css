@@ -1,21 +1,25 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1vw; /* Menggunakan vw untuk padding agar responsif */
   text-align: center;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 6vw; /* Menggunakan vw untuk tinggi agar responsif */
+  padding: 1vw; /* Menggunakan vw untuk padding agar responsif */
   will-change: filter;
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(
+    0 0 2vw #646cffaa
+  ); /* Menggunakan vw untuk efek drop-shadow agar responsif */
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(
+    0 0 2vw #61dafbaa
+  ); /* Menggunakan vw untuk efek drop-shadow agar responsif */
 }
 
 @keyframes logo-spin {
@@ -34,9 +38,10 @@
 }
 
 .card {
-  padding: 2em;
+  padding: 1vw; /* Menggunakan vw untuk padding agar responsif */
 }
 
 .read-the-docs {
+  font-size: 1.5vw; /* Menggunakan vw untuk ukuran font agar responsif */
   color: #888;
 }
